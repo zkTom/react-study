@@ -7,33 +7,33 @@ const InputWrapper = styled.div`
 		background-color: #fff;
 		box-sizing: border-box;
 		color: inherit;
-		min-height: 48px;
+		min-height: 45px;
 		overflow: hidden;
 		position: relative;
+        /* background-image: -webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%); */
+        background-image: linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+        background-size: 120% 1px;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-origin: content-box;
 
 		&-left {
 			position: absolute;
-			height: 100%;
-            left: 20px;
-            top: 15px;
-			transform: translate3d(-100%, 0, 0);
+            top: 50%;
+            left: 0;
+			transform: translate3d(0, -50%, 0);
+
 		}
 
 		&-right {
 			position: absolute;
-			height: 100%;
-            right: 20px;
-            top: 15px;
-			transform: translate3d(100%, 0, 0);
+            top: 50%;
+            right: 0;
+			transform: translate3d(0, -50%, 0);
+
 		}
 
 		&-wrapper {
-			/* background-image: -webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%); */
-			background-image: linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
-			background-size: 120% 1px;
-			background-repeat: no-repeat;
-			background-position: bottom left;
-			background-origin: content-box;
 			align-items: center;
 			box-sizing: border-box;
 			display: flex;

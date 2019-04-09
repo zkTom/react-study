@@ -45,6 +45,7 @@ class Login extends Component {
                             suffix="iconfont-ali icon-alicuo"
                             change={this.changePassword}
 						/>
+                        
 					</LoginForm>
 					<LoginBottom />
 				</LoginWrapper>
